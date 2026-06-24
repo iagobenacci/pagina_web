@@ -368,6 +368,7 @@
             width: 100%;
             height: 100%;
             object-fit: cover;
+            object-position: center top;
         }
         .sobre-foto-placeholder {
             width: 100%;
@@ -731,7 +732,8 @@
             .ajudar-grid { grid-template-columns: 1fr; }
             .sobre-grid  { grid-template-columns: 1fr; }
             .sobre-foto-wrapper { width: 100%; }
-            .sobre-foto { aspect-ratio: 4/3; }
+            .sobre-foto { aspect-ratio: auto; }
+            .sobre-foto img { height: auto; object-fit: contain; border-radius: 1.5rem; }
             .sessoes-grid { grid-template-columns: 1fr; }
             .depoimentos-grid { grid-template-columns: 1fr; }
             .atendimento-cards { grid-template-columns: 1fr; }
